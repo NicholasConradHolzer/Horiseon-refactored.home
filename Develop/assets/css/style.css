@@ -7,7 +7,6 @@ body {
     background-color: #d9dcd6;
 }
 
-
 /*Header*/
 .header {
     padding: 20px;
@@ -37,7 +36,6 @@ body {
     margin-left: 25px;
 }
 
-
 /*Initial Element Styling for Anchor and Paragraph tags*/
 a {
     color: #ffffff;
@@ -46,7 +44,6 @@ a {
 p {
     font-size: 16px;
 }
-
 
 /*Footer*/
 .footer {
@@ -59,7 +56,6 @@ p {
     font-size: 20px;
 }
 
-
 /*Hero*/
 .hero {
     height: 800px;
@@ -69,7 +65,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-
 
 /*Main 'Content' Section*/
 .content {
@@ -101,7 +96,6 @@ p {
     font-size: 36px;
 }
 
-
 /*Benefits Section*/
 .benefits {
     margin-right: 20px;
@@ -126,7 +120,3 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-
-
-
