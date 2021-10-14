@@ -8,7 +8,7 @@ body {
 }
 
 
-/*head elements*/
+/*Header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +19,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-.header h1 .seo {
+.header h1 #seo {
     color: #d9dcd6;
 }
 .header nav {
@@ -38,6 +38,7 @@ body {
 }
 
 
+/*Initial Element Styling for Anchor and Paragraph tags*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -47,7 +48,7 @@ p {
 }
 
 
-/*footer elements*/
+/*Footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -59,7 +60,7 @@ p {
 }
 
 
-/*hero elements*/
+/*Hero*/
 .hero {
     height: 800px;
     width: 100%;
@@ -70,15 +71,7 @@ p {
 }
 
 
-/*section content elements*/
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/*Main 'Content' Section*/
 .content {
     width: 75%;
     display: inline-block;
@@ -92,15 +85,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-.content img {
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+.card img {
     max-height: 200px;
 }
-.content h2 {
-    display: inline-flex; /*
-    added this display attribute as it makes the h2's not 
-    take up the full inline getting in way of pictures
-    /still don't know why the h2's started doing that in first place...
-    */
+.card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -117,15 +113,15 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-.benefit {
+.benefit-widget {
     margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit h3 {
+.benefit-widget h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-.benefit img {
+.benefit-widget img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
