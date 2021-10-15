@@ -1,3 +1,6 @@
+/*\BEGIN\ALL-PAGE-STYLING and HEADER+FOOTER-STYLING\BEGIN\--------------------------------------------------*/
+
+/*All-Page*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -35,14 +38,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-/*Initial Element Styling for Anchor and Paragraph tags*/
-a {
+.header nav a {
     color: #ffffff;
     text-decoration: none;
-}
-p {
-    font-size: 16px;
 }
 
 /*Footer*/
@@ -56,6 +54,16 @@ p {
     font-size: 20px;
 }
 
+/*Initial Element Styling for Paragraph tags*/
+p {
+    font-size: 16px;
+}
+
+/*\END\ALL-PAGE-STYLING AND HEADER+FOOTER-STYLING\END\-------------------------*/
+
+
+/*\BEGIN\PAGE-MAIN-BODY-STYLING\BEGIN\--------------------------------------------------*/
+
 /*Hero*/
 .hero {
     height: 800px;
@@ -66,7 +74,7 @@ p {
     background-position: center;
 }
 
-/*Main 'Content' Section*/
+/*Homepage Descriptive Content*/
 .content {
     width: 75%;
     display: inline-block;
@@ -80,6 +88,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.card img {
+    max-height: 200px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -88,15 +103,8 @@ p {
     float: right;
     margin-left: 25px;
 }
-.card img {
-    max-height: 200px;
-}
-.card h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-/*Benefits Section*/
+/*Benefits Sidebar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -111,12 +119,15 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit-widget h3 {
+.benefit-widget h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 1.17em; 
 }
 .benefit-widget img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*\END\PAGE-MAIN-BODY-STYLING\END\-------------------------*/
