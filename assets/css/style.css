@@ -1,6 +1,6 @@
 /*\BEGIN\ALL-PAGE-STYLING and HEADER+FOOTER-STYLING\BEGIN\--------------------------------------------------*/
-/*
-All-Page:
+
+/* All-Page:
 */
 * {
     box-sizing: border-box;
@@ -12,26 +12,26 @@ body {
     background-color: #d9dcd6;
 }
 
-/*
-Header:
+
+/* Header/Navigation:
 */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 #seo {
+header h1 #seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,36 +39,36 @@ Header:
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-.header nav a {
+header nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*
-Footer:
+
+/* Footer/Acknowledgements:
 */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
 
-/*
-Initial Element Styling for Paragraph tags:
+
+/* Initial Element Styling for Paragraph tags:
 */
 p {
     font-size: 16px;
@@ -77,21 +77,22 @@ p {
 /*\END\ALL-PAGE-STYLING AND HEADER+FOOTER-STYLING\END\--------------------------------------------------*/
 
 
+
 /*\BEGIN\PAGE-MAIN-BODY-STYLING\BEGIN\--------------------------------------------------*/
-/*
-Hero:
+
+/* Hero:
 */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/*
-Homepage Descriptive Content:
+
+/* Homepage Descriptive Content:
 */
 .content {
     width: 75%;
@@ -127,8 +128,8 @@ Homepage Descriptive Content:
     margin-left: 25px;
 }
 
-/*
-Benefits Sidebar:
+
+/* Benefits Sidebar:
 */
 .benefits {
     margin-right: 20px;
