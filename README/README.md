@@ -116,8 +116,8 @@ File:~/index.html:
    -Selector <id> added to the first card in the "Homepage Descriptive
    Content" section.  This introduces consistency with the formatting
    of the remaining two cards while also returning functionality to the
-   "Search Engine Optimization" button in the Header's Navigation Section.                                                                                                                                                                                                                                                                                                                                                                                                  
- 
+   "Search Engine Optimization" button in the Header's Navigation Section.                                                                                                                               
+   
   *Header Upleveling:
    -Upleveled <h3> tags in the "Benefits Sidebar" section to maintain
    standards in regards to heading level as there is no <h2> element that
